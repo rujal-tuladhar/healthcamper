@@ -29,14 +29,21 @@ python -m http.server 8330
 
 Then open http://localhost:8330
 
-## How to publish on your domain (free)
+## Hosting (already set up — July 2026)
 
-Easiest path — **Netlify Drop** (no account tooling needed):
-1. Go to https://app.netlify.com/drop and drag the whole `health-camper-website` folder onto the page.
-2. In Netlify: Site settings → Domain management → Add custom domain → enter your Health Camper domain.
-3. At your domain registrar, add the DNS records Netlify shows you (an A record + CNAME for `www`). HTTPS is automatic.
+Live at **https://healthcamper.com** via GitHub Pages:
+- Repo: https://github.com/rujal-tuladhar/healthcamper (branch `main`, root folder)
+- Custom domain via `CNAME` file (healthcamper.com) — don't delete that file
+- Namecheap DNS: 4 A records `@` → 185.199.108/109/110/111.153, CNAME `www` → rujal-tuladhar.github.io
 
-Alternatives: Cloudflare Pages, Vercel, GitHub Pages — all free for static sites.
+**To publish changes:** commit and push to `main` — the site redeploys automatically in 1–2 minutes:
+
+```powershell
+cd health-camper-website
+git add -A
+git commit -m "New blog post: ..."
+git push
+```
 
 ## Newsletter form
 
