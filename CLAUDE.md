@@ -50,7 +50,8 @@ _Last updated: 2026-11-02_
 - Goal: sell camping products tied to the brand, "gear for calmer nights outdoors".
 - ✅ Research done (see "Shop recommendation" below).
 - ✅ Design mock of shop section + product page + cart built as a preview (NOT on the live site): https://claude.ai/artifact/7YbZXmfqjjAtest6pSXKo9 (source kept outside the repo).
-- ⏳ Waiting for Rujal: approve the approach, choose a platform, approve the mock. Nothing has been signed up for or bought.
+- 2026-11-02: Rujal is starting a **Shopify trial** (Rujal signs up themselves). Plan: Starter + Buy Button sales channel, store in CAD, Canada-only shipping, GST/HST collection OFF until registered, first products = print-on-demand via Printful. **Keep healthcamper.com on GitHub Pages — do not connect the domain to Shopify.** Next for Claude: when Rujal sends the myshopify address and Buy Button embed codes, build the shop pages from the approved mock (Buy Button code and its storefront token are public by design, safe to commit).
+- ⏳ Waiting for Rujal: approve the mock; send Shopify details once set up.
 - Rules for the shop: never imply buying gear unlocks anything in the app; no "helps you sleep" health claims for products; every product pairs with an app sound (soft cross-promotion); privacy policy + terms of sale + shipping/returns pages must be added before the shop goes live, without changing the app privacy policy's promise that the **app** collects nothing.
 
 ### Shop recommendation (researched Nov 2026 — recheck prices on vendor pages before signing up)
