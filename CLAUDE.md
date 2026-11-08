@@ -40,6 +40,7 @@ Ask before signing up for any service or spending money.
 Rujal wants the e-commerce work (Shopify store, products, Amazon shelf) managed from a Claude session on their own computer, so Claude can use their real Chrome (Claude in Chrome extension) where they are already signed in to Shopify.
 - Local setup: Claude desktop app (or Claude Code) on the computer + a clone of this repo + the Claude in Chrome extension.
 - Rujal types passwords, email codes, card and ID details themselves; Claude never enters them. Ask before anything that costs money (plans, paid apps, ads).
+- Full research files and the shop preview are on the **`claude-memory` branch** in `memory/` (shop-research.md, g7-dropship-research.md, amazon-ca-products.md, camp-store-preview.html). Read them with `git fetch origin claude-memory && git show origin/claude-memory:memory/<file>`. Kept off `main` so they don't appear on the live site.
 - This CLAUDE.md is the shared memory: update "Plan & status" and push after each piece of work.
 
 ## Plan & status
