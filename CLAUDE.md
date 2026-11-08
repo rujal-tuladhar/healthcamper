@@ -36,6 +36,12 @@ Ask before signing up for any service or spending money.
 - No medical claims, no made-up statistics.
 - Public contact email: **healthcamper00@gmail.com**.
 
+## Running the shop work on Rujal's own computer
+Rujal wants the e-commerce work (Shopify store, products, Amazon shelf) managed from a Claude session on their own computer, so Claude can use their real Chrome (Claude in Chrome extension) where they are already signed in to Shopify.
+- Local setup: Claude desktop app (or Claude Code) on the computer + a clone of this repo + the Claude in Chrome extension.
+- Rujal types passwords, email codes, card and ID details themselves; Claude never enters them. Ask before anything that costs money (plans, paid apps, ads).
+- This CLAUDE.md is the shared memory: update "Plan & status" and push after each piece of work.
+
 ## Plan & status
 _Last updated: 2026-11-02_
 
