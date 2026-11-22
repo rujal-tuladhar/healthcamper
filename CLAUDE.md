@@ -12,8 +12,8 @@ Ask before signing up for any service or spending money.
 ## The app (what the site promotes)
 - Free, camping-themed mindfulness app for iPhone. No account, no ads, no subscription, no paywall.
 - Confirmed v1.0 features (use only these when describing the app): guided breathing (visual pacer), meditation timer / quiet minutes, sleep sounds synthesized live on the phone (never loop, work offline, keep playing when locked, sleep timer — Deep Sleep Noise, Rain on Tent, Campfire, Mountain Wind, Forest River, Crickets), mood journal, streaks, "Today's climb" (Camp One affirmation, Camp Two one small goal, Camp Three quiet minutes), optional Apple Health (writes Mindful Minutes only).
-- Guide character: **Pemba**, a Sherpa trail guide.
-- **Not shipped yet — always say "coming soon / in a future update":** First Light (calm 5-minute morning talk; Pemba's 8 AM daily talk), a pure White Noise mode.
+- No named guide character. Rujal (2026-11-05): "don't mention Pemba anywhere". Never write that name on the site, in the shop or in marketing. The app's guide is just "your trail guide", and the morning talk's narrator is "Health Camper".
+- **Not shipped yet — always say "coming soon / in a future update":** First Light (calm 5-minute morning talk at 8 AM), guided meditations (5–30 min, built on the app's v1.1 branch, not released), a pure White Noise mode.
 - Do not claim: sleep stories, long guided meditation journeys, body scans, SOS sessions, push reminders/nudges, daily journaling prompts — none are confirmed in v1.0.
 - Status: v1.0 submitted to App Review (last known "Waiting for Review"). Not on the App Store yet, so the site says "coming soon". There is **no Android app**.
 - Future: optional "Camp Pass" subscription ($29.99/yr) planned for v1.2 only. **Do not advertise it.** Keep the "free" promise accurate.
@@ -44,7 +44,7 @@ Rujal wants the e-commerce work (Shopify store, products, Amazon shelf) managed 
 - This CLAUDE.md is the shared memory: update "Plan & status" and push after each piece of work.
 
 ## Plan & status
-_Last updated: 2026-11-02_
+_Last updated: 2026-11-22_
 
 ### Known fixes
 1. ✅ Removed "Google Play" from the home page (no Android app). Hero now says "Free on iPhone. Coming soon to the App Store."
@@ -54,6 +54,7 @@ _Last updated: 2026-11-02_
 5. ⏳ When the app is live: add the App Store badge + link everywhere ("Get the App" buttons, every blog CTA, notes.html, hero), and change "coming soon" wording.
 
 ### Camp Store (selling camping gear on the site)
+- 2026-11-22: E-commerce manager session started (cloud session). It cannot use Rujal's Chrome: no computer is connected and the Claude in Chrome tools aren't available here. Shopify setup in Chrome needs a Claude session running on Rujal's own computer (Claude desktop app + Claude in Chrome extension). Policy pages (Shipping & Returns, Terms of Sale, privacy shop section) and the shop pages can be drafted from here. Waiting on Rujal for: how diaperstore.ca works, Shopify sign-in status, and the store's myshopify address.
 - Goal: sell camping products tied to the brand, "gear for calmer nights outdoors".
 - ✅ Research done (see "Shop recommendation" below).
 - ✅ Design mock of shop section + product page + cart built as a preview (NOT on the live site): https://claude.ai/artifact/7YbZXmfqjjAtest6pSXKo9 (source kept outside the repo).
